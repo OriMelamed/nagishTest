@@ -1,13 +1,27 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+    nagishli_config = {
+      // צבע התוסף - האפשרויות הן Blue (כחול), Red (אדום), Green (ירוק), Purple (סגול), Pink (ורוד), Yellow (צהוב), Gray (אפור), Orange (כתום), Brown (חום), Turquoise (טורקיז) ו-Black (שחור)
+      color: "blue",
+      // שפת התוסף, he - עברית, en - אנגלית
+      language: "he"
+    };
+  </script>
+  // כתובת אל קובץ התוסף nagishli_beta.js
+  <script src="/nagishli_v3_beta/nagishli_beta.js" charset="utf-8" defer></script>
+  <script type="module" src="/src/main.jsx"></script>
+
+</body>
+
 </html>
